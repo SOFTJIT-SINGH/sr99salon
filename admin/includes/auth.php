@@ -4,7 +4,7 @@ session_start();
 
 function requireLogin(): void {
     if (!isset($_SESSION['admin_id'])) {
-        header('Location: /admin/login.php');
+        header('Location: /login.php');
         exit;
     }
 }

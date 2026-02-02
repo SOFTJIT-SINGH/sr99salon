@@ -2,7 +2,7 @@
 require_once 'config/database.php';
 
 $username = 'admin';
-$password = 'ChangeThisPassword123!'; // CHANGE THIS IMMEDIATELY
+$password = '123'; // CHANGE THIS IMMEDIATELY
 $password_hash = password_hash($password, PASSWORD_BCRYPT);
 
 try {
